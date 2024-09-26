@@ -1,0 +1,32 @@
+
+from graphics import*
+
+def main():
+    #Create the window
+    win = GraphWin('Shapes', 400, 400)
+    center = Point(100, 100)
+    circ = Circle(center, 30)
+    circ.setFill('red')
+    circ.draw(win)
+
+    #Create and draw a label for the circle
+    label = Text(center, "Red Circle")
+    label.draw(win)
+
+    #Create and draw a rectangle
+    rect = Rectangle(Point(150, 50), Point(250, 150))
+    rect.setFill('blue')
+    rect.draw(win)
+
+    #Create and draw a line
+    line = Line(Point(20, 30), Point(180, 165))
+    line.draw(win)
+
+    #Create and draw an oval
+    oval = Oval(Point(20, 150), Point(180, 199))
+    oval.draw(win)
+
+    win.getMouse()
+    win.close()
+
+main()
