@@ -1,4 +1,4 @@
-# username.py
+'''# username.py
 #    Simple string processing program to generate usernames.
 def main():
     print("This program generates computer usernames.\n")
@@ -20,4 +20,18 @@ main()'''
 
     print("You're username is: ", fname[0] + lname[:10])
 
-main()
+main()'''
+
+
+##########################################################
+'''def main():
+    months = "JanFebMarAprMayJunJulAugSepOctNovDec"
+
+    rm = eval(input("Enter the number corresponding to the month that you want: "))
+    pos = ((rm-1)*3)
+
+    monthAbbrev = months[pos:pos+3]
+
+    print("The month is: ", monthAbbrev)
+
+main()'''
