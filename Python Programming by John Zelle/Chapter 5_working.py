@@ -211,3 +211,51 @@ def main():
 main()'''
 
 #########################################################
+'''
+def main():
+
+    day, month, year = eval(input("Enter the day, month, and year: "))   #enter numbers separated by commas
+    date1 = str(day)+"/"+str(month)+"/"+str(year)
+
+    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", 
+                "Sep", "Oct", "Nov","Dec"]
+    pmonth = months[month-1]
+    date2 = pmonth + " " + str(day)+","+str(year)
+
+    print("The date is", date1, "or", date2, ".")
+
+main()
+'''
+'''
+# change2.py
+#   A program to calculate the value of some change in dollars
+#   This version represents the total cash in cents.
+def main():
+    print("Change Counter\n")
+    print("Please enter the count of each coin type.")
+    quarters = eval(input("Quarters: "))
+    dimes = eval(input("Dimes: "))
+    nickels = eval(input("Nickels: "))
+    pennies = eval(input("Pennies: "))
+    total = quarters * 25 + dimes * 10 + nickels * 5 + pennies
+    print("The total value of your change is ${0}.{1:0>2}".format(total//100, total%100))
+        
+    main()
+main()
+
+'''
+
+
+def main():
+
+    print("Cange Counter \n Please enter the count of each coin type.\n")
+    quarters = eval(input("Quarters: "))
+    dimes = eval(input("Dimes: "))
+    nickels = eval(input("Nickels: "))
+    pennies = eval(input("Penny: "))
+
+    total = quarters*25 + dimes*10 + nickels*5 + pennies*1
+    print("Total change is ${0}.{1:0>2}".format(total//100, total%100))
+
+    main()
+main()
