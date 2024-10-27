@@ -161,3 +161,53 @@ def main():
 main()'''
 
 ###########################################################################
+'''
+
+# dateconvert.py
+#    Converts a date in form "mm/dd/yyyy" to "month day, year"
+def main():
+    # get the date
+    dateStr = input("Enter a date (mm/dd/yyyy): ")
+    # split into components
+    monthStr, dayStr, yearStr = dateStr.split("/")
+    # convert monthStr to the month name
+    months = ["January", "February", "March", "April",
+              "May", "June", "July", "August",
+              "September", "October", "November", "December"]
+    monthStr = months[int(monthStr)-1]
+    # output result in month day, year format
+    print("The converted date is:", monthStr, dayStr+",", yearStr)
+main()'''
+
+##########################################################################
+'''
+def main():
+    dateStr = input("Please enter a date in the format dd/mm/yy: ")        #Enter a date
+    date, month, year = dateStr.split("/")                                 #split the date with accurate parameter
+    
+    months = ["January", "February", "March", "April", "May", "Joune", "July", "August", "September", "October", "November", "December"]
+
+    pmonth = months[(int(month)-1)]
+
+    print("The date is", pmonth, date, year)
+    
+
+main()'''
+
+
+'''
+# dateconvert2.py
+#     Converts day month and year numbers into two date formats
+def main():
+    # get the day month and year
+    day, month, year = eval(input("Please enter day, month, and year numbers: "))
+    date1 = str(month)+"/"+str(day)+"/"+str(year)
+    months = ["January", "February", "March", "April",
+              "May", "June", "July", "August",
+              "September", "October", "November", "December"]
+    monthStr = months[month-1]
+    date2 = monthStr+" " + str(day) + ", " + str(year)
+    print("The date is", date1, "or", date2+".")
+main()'''
+
+#########################################################
