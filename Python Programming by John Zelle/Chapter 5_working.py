@@ -35,3 +35,36 @@ main()'''
     print("The month is: ", monthAbbrev)
 
 main()'''
+
+############################################################
+
+'''months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug","Sep", "Oct", "Nov", "Dec"]
+
+reqMonth = eval(input("Enter the number that corresponds to the month...:"))
+
+print (months[reqMonth-1])
+'''
+
+#ENCODER
+'''
+plaintext = input("Enter the message you would like to encode: ")
+
+for i in plaintext:
+    print(ord(i), end=" ")'''
+
+#DECODER
+
+
+'''
+def main():
+    print("This program converts a sequence of Unicode numbers into")
+    print("the string of text that it represents.\n")
+    # Get the message to encode
+    inString = input("Please enter the Unicode-encoded message: ")
+    # Loop through each substring and build Unicode message
+    message = ""
+    for numStr in inString.split():
+        codeNum = eval(numStr)           # convert digits to a number
+        message = message + chr(codeNum) # concatentate character to message
+    print("\nThe decoded message is:", message)
+main()'''
