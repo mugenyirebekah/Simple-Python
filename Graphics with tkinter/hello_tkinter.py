@@ -1,6 +1,6 @@
 """Hello World Application for Tkinter"""
 
-from tkinter import *
+from tkinter import * #not recommended (using * )
 from tkinter.ttk import *
 
 root = Tk()
