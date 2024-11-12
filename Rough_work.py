@@ -23,8 +23,8 @@ for i in range(1,3):
 print(f"sum of numbers from 1 to 13 is {total}")'''
 
 #############################################################################
-
-'''def calc_yaka():
+'''
+def calc_yaka():
     amount_paid = 5000
     units = amount_paid/560
     print(f"You have {units:.2f} units of electricity")
@@ -40,12 +40,12 @@ def main():
     calc_yaka()
     calc_water()
 
-main()'''
-
+main()
+'''
 #--------------------------------OR--------------------------#
 
 
-def calc_yaka():
+'''def calc_yaka():
     amount_paid = 8000
     units = amount_paid/560
     return units
@@ -58,7 +58,79 @@ def calc_water():
 
 def main():
     print(f"You have {units} yaka units")
-    print(f"You owe {units_cost} for water.")
+    print(f"You owe {units_cost} for water.")'''
 
 
 ####################################################
+
+#Question 1: Write a Python program that takes a list of integers as input and returns a list of even numbers.
+
+'''
+num = []
+
+for i in range(1,11):
+    value = eval(input(f"Enter a number {1}: "))
+    num.append(value)
+
+
+for i in num:
+    if(i%2==0):
+        print(i)
+
+'''
+
+
+#######################################################
+
+#Question 2: Write a Python program to print the multiplication table of a given number up to 12.
+
+'''num = eval(input("number to create a multiplication table with"))
+
+for i in range(1,13):
+    print(f"{num} x {i}  = {num*i}")'''
+
+####################################################
+
+
+'''
+for i in range(1,6):
+    for j in range(1,6):
+        product = i * j
+        print(f"{i} x {j} = {product}", end="\t")
+    print()'''
+
+####################################################
+
+#Question 3: Write a Python program that finds the largest number in a list  USING the max() function.
+
+'''num = [3,4234,3456, 345, 4535, 987]
+
+largest_num = max(num)
+
+print(f"The largest num is {largest_num}")'''
+
+
+#Question 43 Write a Python program that finds the largest number in a list NOT USING the max() function.
+
+'''num = [3, 45, 32, 23, 12, 1234]
+
+largest = num[0]
+
+for i in num:
+    if (i > largest):
+        largest = i
+
+print(largest)'''
+
+
+#Question 4: Write a Python function that checks if a string is the same as the input String
+
+password = "Iron man"
+
+ui = input("Enter the password: ")
+
+if password == ui:
+    print("Yooooo")
+
+else:
+    print("YIKES!!")
