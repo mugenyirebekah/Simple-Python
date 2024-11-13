@@ -196,3 +196,6 @@ print(dnum)
 #####################################
 
 num_pancakes = 10
+
+print("I am going to eat " + str(num_pancakes) + " pancakes")
+
