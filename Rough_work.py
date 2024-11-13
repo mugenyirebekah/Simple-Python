@@ -125,7 +125,7 @@ print(largest)'''
 
 #Question 4: Write a Python function that checks if a string is the same as the input String
 
-password = "Iron man"
+'''password = "Iron man"
 
 ui = input("Enter the password: ")
 
@@ -133,4 +133,65 @@ if password == ui:
     print("Yooooo")
 
 else:
-    print("YIKES!!")
+    print("YIKES!!")'''
+
+
+#################################
+'''paragraph = "This is a \
+ multi-line \
+string \
+Printed on the \
+same line."
+
+
+paragraph2 = """YOOOOOOOO.....
+this is a multiline string...
+            using
+
+delimi t e r     s"""
+
+print(paragraph)
+print(paragraph2)
+
+'''
+
+###########
+
+''''
+def get_fname():
+    fname = input("What's your first name? ")
+    return fname
+
+def get_lname():
+    lname = input("...and last name? ")
+    return lname
+
+def main():
+    fname = get_fname()
+    lname = get_lname()
+
+    print(fname)
+    print("Your name is", fname, lname)
+main()'''
+
+#######################################
+'''
+response = input("What should I shout?")
+shout = response.upper()
+
+print(shout)'''
+
+#####################################
+'''
+password = input("Tell me your password: ")
+first_letter = password[0]
+print(first_letter.upper())'''
+
+#####################################
+'''
+num = input("Enter a number to be doubled: ")
+dnum = float(num) * 2
+print(dnum)
+'''
+#####################################
+
