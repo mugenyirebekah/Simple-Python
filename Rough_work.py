@@ -208,8 +208,10 @@ eaten_pancakes = 14
 print("There are only " + str(total_pancakes - eaten_pancakes) + " pancakes left.")'''
 
 ########################################
-
+'''
 phrase = "I'm never going to dance again, guilty feet have got no rhythm"
 
 print(phrase.find("dance"))
+
+'''
 
