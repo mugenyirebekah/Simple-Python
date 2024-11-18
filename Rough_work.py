@@ -230,3 +230,113 @@ print(name.upper())
 '''
 
 #########################
+
+
+'''
+number = eval(input("Enter a number:"))
+
+if number % 2 == 0:
+    print("even")
+
+else:
+    print("odd")
+
+'''
+
+#######################
+'''
+num = eval(input("Input number to compute factorial:"))
+
+fact = 1
+for i in range(1, num+1):
+    fact = fact*i
+
+print(fact)
+
+'''
+######################
+'''
+print(f"{3+5}, {7-2}, {8*3}, {10/2}")
+'''
+####################
+
+'''
+def greet():
+    name = input("What is your name?: ")
+
+    print("Hello, ", name)
+
+greet()
+'''
+####################
+'''
+fname = "Rebekah"
+lname = "Mugenyi"
+
+name = (fname + " " + lname)
+
+print(name)
+'''
+#####################
+'''
+str = input("Enter String: ")
+
+print(len(str))
+'''
+#####################
+'''
+def num():
+
+    num = eval(input("Enter a number: "))
+
+    if num  == 0:
+        print("zero")
+
+    elif num < 0:
+        print("negative")
+
+    elif num > 0:
+        print("positive")
+
+num()
+
+'''
+######################
+'''
+C =eval(input("temp in C: "))
+
+F = (9/5)*C+32
+
+print(F)
+'''
+####################
+
+'''
+for i in range(10):
+    print (i+1)
+    
+'''
+
+###############
+'''
+num = eval(input("Multiplaction table number: "))
+
+for i in range(1,13):
+    print(f"{i} x {num} = {num*i}" )
+'''
+################
+
+'''print("Becky".upper())'''
+#################
+'''
+numbers = [1,2,3,4,5]
+
+total = sum(numbers)
+print(total)'''
+
+#########
+
+sentence = input("Enter a sentence: ")
+
+words = sentence.split()
+print(words)
