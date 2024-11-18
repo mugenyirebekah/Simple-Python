@@ -215,3 +215,18 @@ print(phrase.find("dance"))
 
 '''
 
+########################
+
+'''
+print("Hello World!")
+'''
+
+########################
+'''
+name = input("Please enter your name: ")
+
+print(name.upper())
+
+'''
+
+#########################
