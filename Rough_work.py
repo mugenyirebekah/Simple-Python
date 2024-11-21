@@ -335,10 +335,37 @@ total = sum(numbers)
 print(total)'''
 
 #########
-
+'''
 sentence = input("Enter a sentence: ")
 
 words = sentence.split()
 print(words)
-
+'''
 ####
+def create_list():
+    num_list = []
+
+    while True:
+        data = eval(input("Enter an integer (type 0 when complete): "))
+
+        if data == 0:
+            break
+        else:
+            num_list.append(data)
+        
+    return num_list
+
+def print_even_numbers(num_list):
+
+    for i in num_list:
+        if (i%2 ==0):
+            print(i, end = " ")
+
+
+def main():
+    num_list = create_list()
+    print_even_numbers(num_list)
+
+main()
+
+    
