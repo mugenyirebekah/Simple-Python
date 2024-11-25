@@ -29,3 +29,6 @@ draw_ring((255, 19, 240), 60, -50)
 
 turtle.hideturtle()
 turtle.done()
+
+
+#############################
