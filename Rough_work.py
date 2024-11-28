@@ -373,7 +373,7 @@ main()
 
 
 #Write a Python program that takes a list of integers as input and returns a list of even numbers.
-
+'''
 def menu():
     print("This program takes a list of integers as input and returns a list of even numbers.")
     print('-'*80)
@@ -410,6 +410,31 @@ def main():
     print_even(nums)
 
 main()
+
+'''
+##############################################################################################
+
+
+import math
+
+a, b, c = eval(input("Enter coefficients:"))
+
+d = b*b-4*a*c
+
+if d < 0:
+    print("Try different values")
+
+else:
+
+    d1 = math.sqrt(d)
+    x1 = (-b - d1 )/(2*a)
+    x2 = (-b + d1)/(2*a)
+
+    print(x1)
+    print()
+    print(x2)
+
+
 
 
 
