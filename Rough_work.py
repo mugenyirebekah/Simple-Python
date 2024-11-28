@@ -472,3 +472,23 @@ win.getMouse()
 
 '''
 #######################################################################################
+'''
+# average1.py
+#    A program to average a set of numbers
+#    Illustrates counted loop with accumulator
+
+
+def main():
+    n = eval(input("Enter the number of entries: "))
+
+    sum = 0
+    
+    for i in range(n):
+        x = eval(input("Number: "))
+        sum = sum + x
+
+    print(sum/n)
+main()
+'''
+
+##################################################################################
