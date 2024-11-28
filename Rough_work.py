@@ -414,7 +414,7 @@ main()
 '''
 ##############################################################################################
 
-
+'''
 import math
 
 a, b, c = eval(input("Enter coefficients:"))
@@ -435,6 +435,38 @@ else:
     print(x2)
 
 
+'''
+##############################################################################################
 
+from graphics import *
 
+win = GraphWin("Celsius Temperature", 300,200)
+win.setCoords(0.0,0.0,3.0,4.0)
+
+Text(Point(1,3), 'Celsius Temperature: ').draw(win)
+Text(Point(1,1), 'Fahrenheit Temperature: ').draw(win)
+
+input_txt = Entry(Point(2,3),5)
+input_txt.setText('0.0')
+input_txt.draw(win)
+
+output = Text(Point(2,1), "")
+output.draw(win)
+
+button = Text(Point(1.5,2), "Convert It")
+button.draw(win)
+
+Rectangle(Point(1.5,1.5), Point(2,2))
+
+win.getMouse()
+
+c = input_txt.getText()
+
+f = 9/5 * eval(c) + 32
+
+output.setText(f)
+
+button.setText("Quit")
+
+win.getMouse()
 
