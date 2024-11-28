@@ -550,3 +550,23 @@ def main():
 main()
 '''
 #####################################################################
+
+'''
+def main():
+
+    filename = input("What is the file name?")
+    inFile = open(filename, 'r')
+
+    sum = 0
+    count = 0
+
+    for i in inFile.readlines():
+        sum = sum + eval(i)
+        count = count + 1
+
+    print(sum/count)
+
+
+main()
+'''
+#####################################################################
