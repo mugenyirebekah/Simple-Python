@@ -342,6 +342,7 @@ words = sentence.split()
 print(words)
 '''
 ####
+'''
 def create_list():
     num_list = []
 
@@ -367,5 +368,48 @@ def main():
     print_even_numbers(num_list)
 
 main()
+'''
+#####################
 
-    
+
+#Write a Python program that takes a list of integers as input and returns a list of even numbers.
+
+def menu():
+    print("This program takes a list of integers as input and returns a list of even numbers.")
+    print('-'*80)
+    print()
+
+def integer_input():
+    nums = []
+    xStr = input("Please enter an integer to add to the list (Click enter when complete): ")
+
+    while xStr != "":
+        try:
+            nums.append(int(xStr))
+            xStr = input("Please enter an integer to add to the list (Click enter when complete): ")
+
+        except ValueError:
+            print("Error, please enter an integer")
+
+    print("Input complete.")
+    print(nums)
+
+    return nums
+
+
+def print_even(nums):
+
+    for i in nums:
+        if i%2 == 0:
+            print(i)
+
+
+def main():
+    menu()
+    nums = integer_input()
+    print_even(nums)
+
+main()
+
+
+
