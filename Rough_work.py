@@ -617,5 +617,14 @@ def main():
 main()
 '''
 ################################################################
+'''
+while True:
+    x = eval(input("Enter a positive number: "))
+    if x >= 0: 
+        break
+    else:
+        print("The number you entered was not positive")
 
+'''
+#############################################################
 
