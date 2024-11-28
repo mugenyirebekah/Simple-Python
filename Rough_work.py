@@ -637,3 +637,25 @@ while True:
 
 '''
 ####################################################
+'''
+ans = input("What car would you like?")
+
+if ans:
+    car = ans
+else:
+    car = "volvo"
+
+print(car)
+'''
+###################################
+'''
+ans = input("What car would you like?")
+car = ans or "Benz"
+print(car)
+'''
+##################################
+'''
+car = input("What car do you want?") or "Benz"
+print(car)
+'''
+###################################
