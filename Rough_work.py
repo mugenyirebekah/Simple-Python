@@ -492,3 +492,23 @@ main()
 '''
 
 ##################################################################################
+'''
+def main():
+    moredata = 'yes'
+
+    sum = 0
+    count = 0
+
+    while moredata == 'yes':
+        x = eval(input("Enter number: "))
+        sum = sum + x
+        count = count + 1
+
+        moredata = input("Moredata? ")
+    
+    print(sum/count)
+        
+
+main()
+'''
+##################################################################
