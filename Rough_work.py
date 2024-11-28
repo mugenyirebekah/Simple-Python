@@ -512,3 +512,21 @@ def main():
 main()
 '''
 ##################################################################
+'''
+
+def main():
+    sum = 0
+    count = 0
+
+    x = eval(input("Please enter the a number (negative to quit): "))
+
+    while x > 0:
+        sum = sum+x
+        count = count+1    
+        x = eval(input("Please enter the a number (negative to quit): "))
+
+    print(sum/count)    
+
+main()
+'''
+###########################################################
