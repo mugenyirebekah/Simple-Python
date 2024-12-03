@@ -1,1 +1,1 @@
-simple python
+simple python/ learning syntax
