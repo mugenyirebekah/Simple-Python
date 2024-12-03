@@ -730,3 +730,15 @@ def main():
 main()
 '''
 ################################
+'''
+nlist = [3,2,5,1,234,5153, 2,3]
+
+largest = nlist[0]
+
+for i in nlist:
+    if i > largest:
+        largest = i
+
+print(largest)
+'''
+#################################
