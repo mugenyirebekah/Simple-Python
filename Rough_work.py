@@ -682,4 +682,18 @@ def main():
 main()
 
 '''
-#####
+###################################
+'''
+def main():
+    print('This program prints a multiplication table')
+    print('-'*70)
+    #n = eval(input('Enter a number to print the multiplication table.'))
+
+    for j in range(1,13):
+        for i in range(1,13):
+            print(f"{i:<2} x {j:<2} = {i*j:<5}", end = " ")
+        print()
+
+main()
+'''
+##################################
