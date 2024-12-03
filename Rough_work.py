@@ -1,3 +1,4 @@
+
 '''Assignment = [44, 76, 22, 91]
 
 Cs1 = ((Assignment[0]+Assignment[1]+Assignment[2]+Assignment[3])/4)
@@ -697,3 +698,35 @@ def main():
 main()
 '''
 ##################################
+'''
+def menu():
+    print("This program finds the largest number in a list")
+    print('-'*60)
+
+def create_list():
+    num_list = []
+
+    xStr = input("Enter a number to include in the list (Enter when complete)")
+
+    while xStr != '':
+        x = eval(xStr)
+        num_list.append(x)
+        xStr = input("Enter a number to include in the list (Enter when complete)")
+
+    print("List complete", num_list)
+    
+    return num_list
+
+def get_even_numbers(num_list):
+    for i in num_list:
+        if i % 2 == 0:
+            print(i)
+
+def main():
+    menu()
+    num_list = create_list()
+    get_even_numbers(num_list)
+
+main()
+'''
+################################
