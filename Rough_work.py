@@ -700,7 +700,7 @@ main()
 ##################################
 '''
 def menu():
-    print("This program finds the largest number in a list")
+    print("This program prints the even numbers in a list")
     print('-'*60)
 
 def create_list():
