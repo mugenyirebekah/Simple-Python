@@ -659,7 +659,27 @@ car = input("What car do you want?") or "Benz"
 print(car)
 '''
 ###################################
+'''
+def menu():
+    print("This program checks to see if two strings are the same")
+    print('-'*80)
+
+def check_string():
+    string = 'Password'
+    input_string = input('Enter a string: ')
+
+    if string == input_string:
+        print("The strings are the same")
+
+    else:
+        print("The strings are different")
 
 
+def main():
+    menu()
+    check_string()
 
+main()
+
+'''
 #####
