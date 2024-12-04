@@ -761,3 +761,23 @@ print(s4.lower())
 print()
 '''
 ###################################
+'''
+
+s1 = "Animals"
+s2 = "Badger"
+s3 = "Honey Bee"
+s4 = "Honey Badger"
+
+print()
+
+print(s1.upper())
+print()
+print(s2.upper())
+print()
+print(s3.upper())
+print()
+print(s4.upper())
+
+print()
+'''
+#################################
