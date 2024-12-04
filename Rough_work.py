@@ -742,3 +742,22 @@ for i in nlist:
 print(largest)
 '''
 #################################
+'''
+s1 = "Animals"
+s2 = "Badger"
+s3 = "Honey Bee"
+s4 = "Honey Badger"
+
+print()
+
+print(s1.lower())
+print()
+print(s2.lower())
+print()
+print(s3.lower())
+print()
+print(s4.lower())
+
+print()
+'''
+###################################
