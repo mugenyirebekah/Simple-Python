@@ -781,3 +781,33 @@ print(s4.upper())
 print()
 '''
 #################################
+'''
+from graphics import *
+
+win = GraphWin("Yoski")
+
+
+center = Point(100,100)
+
+circ = Circle(center, 30) 
+
+circ.draw(win)
+circ.setFill("red")
+
+rec = Rectangle(Point(10,10),Point(90,90))
+rec.draw(win)
+
+rec.setFill("Yellow")
+
+l = Line(Point(70,70), Point(90,90))
+l.draw(win)
+
+o = Oval(Point(40,50), Point(190,80))
+o.draw(win)
+
+txt = Text(center, 'YAAAAY')
+txt.draw(win)
+
+win.getMouse()
+'''
+###################################
