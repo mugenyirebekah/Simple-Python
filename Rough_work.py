@@ -826,3 +826,26 @@ def main():
 main()
 '''
 #############################
+'''
+from graphics import*
+
+win = GraphWin("Shapes")
+
+circ = Circle(Point(100,100), 40)
+circ.setFill('Red')
+circ.draw(win)
+
+
+txt = Text(Point(100,100), "Red Circle")
+txt.draw(win)
+
+square = Rectangle (Point(10,10), Point(30,30))
+square.draw(win)
+
+Line(Point(40,40),Point(90,90)).draw(win)
+
+oval = Oval(Point(50,80), Point(180,100))
+oval.draw(win)
+win.getMouse()
+'''
+############################
