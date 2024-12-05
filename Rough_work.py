@@ -811,3 +811,18 @@ txt.draw(win)
 win.getMouse()
 '''
 ###################################
+
+'''
+def main():
+    n = eval(input("Enter the number to create factorial of: "))
+
+    fact = 1
+
+    for i in range(n,1,-1):
+        fact = fact * i
+
+    print(fact)
+
+main()
+'''
+#############################
